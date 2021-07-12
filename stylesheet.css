@@ -1,0 +1,84 @@
+/*Importing fonts*/
+@font-face {
+    font-family: "04b";
+    src: url('Font/04b_30/04B_30__.TTF');
+}
+@font-face {
+    font-family:"Flipps";
+    src: url('Font/fipps/Fipps-Regular.otf');
+}
+/*Body*/
+body
+{
+    background-image: url('assets/background-site.gif');/*Fond du site*/   
+    /*Effets Parallax*/
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+a
+{
+   text-decoration: none;
+}
+h1,h2
+{
+    font-family: "04b";
+    color: white; 
+}
+p
+{
+    font-family:"Flipps";
+    color: white;
+}
+/*The NavBar */
+/*To make the NavBar half transparent*/
+#navbar
+{
+    background:rgba(11, 9, 47, 0.99);
+    
+    
+}
+#navbar--title,.nav-item
+{
+        font-family: "04b";
+        color: white;
+        font-size: 20px;
+        
+}
+/*About me*/
+#justme,#aboutme,#skills,#hobbies
+{
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 25px;
+    border: white 5px solid;
+    background:rgba(16, 14, 63, 0.88);
+}
+.jumbotron
+{
+    margin-top: 10px;
+}
+.justme--title,#aboutme--title
+{
+    text-align: center;
+    margin-bottom: 15px;
+}
+#button-cv
+{
+    margin-bottom: 15px;
+    font-family:"Flipps";
+    color: white;
+    border-radius: 14px;
+    border:solid 5px;
+}
+#contact
+{
+    background: rgba(11, 11, 30, 0.96);
+    text-align: center;
+    
+}
+
+
+
+

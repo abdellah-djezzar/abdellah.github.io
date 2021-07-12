@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<!--Tab's icon-->
+	<link rel="icon" href="assets/Icons/nero-icon.PNG" alt="icon d'onglets">	
+    <!--Tab title-->
+    <title>Abdellah Djezzar</title>
+</head>
+<body>
+<!--First Block that will be a NavBar-->
+<nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+    <!--Div that will contain all the parts-->
+    <div class="container-fluid" id="navbar_container" >
+      <!--Title of the Navbar-->
+      <a class="navbar-brand" href="#" id="navbar--title"><img src="assets/small-nero05.PNG" alt="Nero">Accueil</a> 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--Div that will Contain the navbar parts-->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <!--List of the parts-->
+        <!--Each Links will redirect the guest into the appropiate div in the page-->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#aboutme" class="navbar--parttitle" style="color: white;"><img src="assets/Icons/nero-icon.PNG" alt="neroalt">Presentation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills" class="navbar--parttitle" style="color: white;"><img src="assets/Icons/karma-icon.PNG" alt="karma">Competences</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hobbies" class="navbar--parttitle" style="color: white;"><img src="assets/Icons/cross-icon.PNG" alt="cross">Loisirs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact" class="navbar--parttitle" style="color: white;"><img src="assets/Icons/alina-icon.PNG" alt="logan">Contact</a> 
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!--Div Just me-->
+<div class="container" id="justme">
+    <div class="jumbotron">
+        <h1 class="justme--title">Abdellah Djezzar</h1>
+        <h1 class="justme--title">Developpeur web full stack</h1>
+    </div>
+</div>
+<!--About me-->
+<div class="container" id="aboutme">
+    <div class="jumbotron">
+        <h1 id="aboutme--title"><img src="assets/small-nero.PNG" alt="small nero">Presentation</h1>
+        <p class="content">Je vous souhaite la bienvenue dans mon Portfolio dans un thème très pixel!</p>
+        <p class="content">Fan d'informatique depuis mon plus jeune âge,je me suis mis dans le développement web.C'est la raison pour laquelle j'ai rejoins la Web@cademie,afin de d'acquérir et de profiner mes compétences.En recherche de la perfection,developper mes compétences en informatique m'aidera à me developper en tant que personne ainsi que dans d'autre domaines,comme la cuisine ou encore l'animation.</p>
+        <p class="content">Vous souhaiteriez obtenir mon CV,le voici:</p>
+        <!--Pour telecharger mon CV-->
+        <a href="CV/cv.pdf" class="btn btn-outline-light" id="button-cv" target="_blank">Telecharger mon CV</a>
+    </div>
+</div>
+<!--Skills-->
+<!--Each Div will have a content-->
+<div class="container" id="skills">
+<div class="row">
+    <h1 id="skills--title"><img src="assets/small-karma02.PNG" alt="">Competences</h1> 
+    <!--Web PART-->
+    <div class="col-md-6 col-lg-4 col-xl-3 skills--parts">
+        <h2>Web:</h2>
+        <!--List-->
+        <ul class="list-group">
+            <li>
+                <img src="assets/html-icon.png" alt="html" height="50px;" width="50px;">
+                <p>HTML</p>
+            </li>
+            <li>
+                <img src="assets/css-icon.png" alt="css" height="50px;" width="50px;">
+                <p>CSS</p>
+            </li>
+            <li>
+                <img src="assets/js-icon.png" alt="js" height="50px;" width="50px;">
+                <p>Javascript</p>
+            </li>
+            <li>
+                <img src="assets/php-icon.png" alt="js" height="50px;" width="50px;">
+                <p>PHP</p>
+            </li>
+            <li>
+                <img src="assets/nodejs-icon.png" alt="nodejs" height="50px;" width="50px;">
+                <p>Node.Js</p>
+            </li>
+        </ul>
+    </div>
+    <!--Framework-->
+    <div class="col-md-6 col-lg-4 col-xl-3 skills--parts">
+        <h2>Framework:</h2>
+        <!--List-->
+        <ul class="list-group">
+            <li>
+                <img src="assets/bootstrap-icon.png" alt="bootstrap" height="50px;" width="50px;">
+                <p>Bootstrap</p>
+            </li>
+            <li>
+                <img src="assets/symfony-icon.png" alt="symfony" height="50px;" width="50px;">
+                <p>Symfony</p>
+            </li>
+            <li>
+                <img src="assets/react-icon.png" alt="react" height="50px;" width="50px;">
+                <p>React</p>
+            </li>
+            <li>
+                <img src="assets/jquery-icon.png" alt="jquery" height="50px;" width="50px;">
+                <p>Jquery</p>
+            </li>
+        </ul>
+    </div>
+    <!--BDD-->
+    <div class="col-md-6 col-lg-4 col-xl-3 skills--parts">
+        <h2>Base de Donnees:</h2>
+        <!--List-->
+        <ul class="list-group">
+            <li>
+                <img src="assets/mysql-icon.png" alt="mysql" height="50px;" width="50px;">
+                <p>MySql</p>
+            </li>
+            <li>
+                <img src="assets/mongodb-icon.png" alt="mongodb" height="50px;" width="50px;">
+                <p>MongoDb</p>
+            </li>
+            <li>
+                <img src="assets/phpmyadmin-icon.png" alt="phpmyadmin-icon" height="50px;" width="50px;">
+                <p>PhpMyAdmin</p>
+            </li>
+        </ul>
+    </div>
+    <!--IDE-->
+    <div class="col-md-6 col-lg-4 col-xl-3 skills--parts">
+        <h2>IDE:</h2>
+        <!--List-->
+        <ul class="list-group">
+            <li>
+                <img src="assets/vs-icon.png" alt="VS" height="50px;" width="50px;">
+                <p>Visual Code Studio</p>
+            </li>
+            <li>
+                <img src="assets/phpstorm-icon.png" alt="phpstorm" height="50px;" width="50px;">
+                <p>PhpStorm</p>
+            </li>
+            <li>
+                <img src="assets/netbeans-icon.png" alt="netbeans" height="50px;" width="50px;">
+                <p>Netbeans</p>
+            </li>
+            <li>
+                <img src="assets/sublimetext-icon.png" alt="sublime text" height="50px;" width="50px;">
+                <p>Sublime Text</p>
+            </li>
+        </ul>
+    </div>
+    <!--OS-->
+    <div class="col-md-6 col-lg-4 col-xl-3 skills--parts">
+        <h2>OS:</h2>
+        <!--List-->
+        <ul class="list-group">
+            <li>
+                <img src="assets/ubuntu-icon.png" alt="ubuntu" height="50px;" width="50px;">
+                <p>Ubuntu</p>
+            </li>
+            <li>
+                <img src="assets/windows-icon.png" alt="windows10" height="50px;" width="50px;">
+                <p>Windows 10</p>
+            </li>
+        </ul>
+    </div>
+    <!--Logiciels-->
+    <div class="col-md-6 col-lg-4 col-xl-3 skills--parts">
+        <h2>Logiciels:</h2>
+        <!--List-->
+        <ul class="list-group">
+            <li>
+                <img src="assets/office-icon.png" alt="pack office" height="50px;" width="50px;">
+                <p>Pack Office</p>
+            </li>
+            <li>
+                <img src="assets/photoshop.png" alt="Photoshop" height="50px;" width="50px;">
+                <p>PhotoShop</p>
+            </li>
+            <li>
+                <img src="assets/macromediaflash-icon.png" alt="Macromedia Flash" height="50px;" width="50px;">
+                <p>Macromedia Flash</p>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-6 col-lg-4 col-xl-3 skills--parts">
+        <h2>Gestion de projets:</h2>
+        <!--List-->
+        <ul class="list-group">
+            <li>
+                <img src="assets/github-icon.png" alt="GitHub" height="50px;" width="50px;">
+                <p>GitHub</p>
+            </li>
+            <li>
+                <img src="assets/trello-icon.png" alt="Trello" height="50px;" width="50px;">
+                <p>Trello</p>
+            </li>
+        </ul>
+    </div>
+</div>
+</div>
+<!--Hobbies-->
+<div class="container-fluid" id="hobbies">
+        <h1 id="hobbies--title"><img src="assets/small-cross.PNG" alt="">Mes hobbies</h1> 
+    <div class="row">
+        <!--walk PART-->
+        <div class="col-md-6 col-lg-4 col-xl-3 hobbies--parts">
+            <h2>Marche/Randonnee</h2>
+            <img src="assets/walk-icon.png" alt="walk" height="230" width="250">
+            <p>Je pratique régulièrement de la marche/randonnee afin de me maintenir en forme et de développer mon cardio</p>
+        </div>
+        <!--workout PART-->
+        <div class="col-md-6 col-lg-4 col-xl-3 hobbies--parts">
+            <h2>Musculation</h2>
+            <img src="assets/workout-icon.png" alt="workout" height="230" width="250">
+            <p>Etant inscrit depuis plusieurs annees,je pratique aussi de la musculation en parrallele pour developper ma force</p>
+        </div>
+        <!--Pixelating PART-->
+        <div class="col-md-6 col-lg-4 col-xl-3 hobbies--parts">
+            <h2>Pixelisation</h2>
+            <img src="assets/pixelart-icon.png" alt="pixelart" height="230" width="250">
+            <p>Fascine depuis mon plus jeune age,je m'exerce quotidiennement au dessin pixel art,ces petits personnes que vous voyez sont mes créations</p>
+        </div>
+        <!--Music PART-->
+        <div class="col-md-6 col-lg-4 col-xl-3 hobbies--parts">
+            <h2>Musiques</h2>
+            <img src="assets/music-note.gif" alt="workout" height="230" width="250">
+            <p>J'écoute plus ou moins de tout en termes de musiques</p>
+            <p>Playlist en construction.</p>
+        </div>
+    </div>
+</div>  
+<footer>
+    <div class="container-fluid" id="contact">
+        <div class="jumbotron">
+           <!--Les liens-->
+            <!--La location-->
+            <img src="assets/house-icon.png" alt="location" width="30" height="30"><p>:Dans le région Lilloise</p>
+            <!--Numéro de téléphone-->
+            <img src="assets/phone-icon.png" alt="Phone" width="30" height="30"><p>:06.59.94.19.34</p>
+            <!--Outlook-->
+            <img src="assets/outlook-icon.png" alt="outlook" width="30" height="30">
+            <p><a href="mailto:abdellah.djezzar@hotmail.com?subject=Prise de contact">:abdellah.djezzar@hotmail.com</a></p>
+            <!--Github-->
+            <img src="assets/white-github-icon.png" alt="github" width="30" height="30">
+            <p><a href="https://github.com/abdellah-djezzar">:Mon github</a></p>
+        </div>
+    </div>
+    
+</footer>
+<!--JS bundle-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
